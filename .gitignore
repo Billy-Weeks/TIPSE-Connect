@@ -1,0 +1,13 @@
+# Visual Studio IDE Workspace Files
+.vs/
+*.user
+*.suo
+*.db
+
+# Environment Variables & API Secrets
+.env
+.env.*
+
+# Operating System Junk Files
+.DS_Store
+Thumbs.db
