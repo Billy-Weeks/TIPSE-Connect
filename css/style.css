@@ -22,6 +22,20 @@ button {
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--tipse-cream);
+    color: var(--tipse-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
 form {
@@ -30,4 +44,18 @@ form {
     gap: 20px;
     max-width: 400px;
     margin: 0 auto;
+}
+
+.form-logo {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
 }
