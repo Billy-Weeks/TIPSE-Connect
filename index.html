@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TIPSE Connect</title>
+</head>
+<body>
+    <form>
+        <label for="first">First Name:</label>
+        <input id="first" type="text" name="first" placeholder="Eddie" autofocus required />
+
+        <label for="last">Last Name:</label>
+        <input id="last" type="text" name="last" placeholder="Eagle" />
+
+        <label for="CIN">CIN:</label>
+        <input id="CIN" type="text" name="cin" placeholder="12345678" required />
+
+        <label for="email">Preferred Email:</label>
+        <input id="email" type="email" name="email" placeholder="edEagle@calstatela.edu" required/>
+
+        <label for="experience">Experience Level:</label>
+        <select id="experience" required>
+            <option selected value="">Choose your experience level</option>
+            <option value="advanced">I dream in Python</option>
+            <option value="intermediate">I can usually fix what I break</option>
+            <option value="novice">I know enough to break things</option>
+            <option value="beginner">Hello, world?</option>
+        </select>
+
+        <label for="major">Major:</label>
+        <input id="major" type="text" name="major" placeholder="Computer Science" />
+
+        <button type="submit">Interested?</button>
+    </form>
+</body>
+</html>
