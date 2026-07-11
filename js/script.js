@@ -39,6 +39,7 @@ elementForm.addEventListener('submit', function (event) {
         .then(response => {
             if (!response.ok) {
                 console.error("Database rejected the request!");
+                window.location.href = "error.html";
             }
             else {
                 console.log("Successfully sent to Supbase!");

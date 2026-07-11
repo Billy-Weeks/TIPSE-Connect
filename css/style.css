@@ -53,29 +53,39 @@ form {
     margin-bottom: 10px;
 }
 
-.success-form {
+.msg {
     text-align: center;
     margin-top: 100px;
     padding: 20px;
 }
 
-.success-form h1 {
+.msg h1 {
     color: var(--tipse-green);
     font-family: var(--font-main);
-    font-size: 2em;
     margin-bottom: 20px;
 }
 
-.success-form p {
+.msg p {
     color: var(--tipse-cream);
     font-family: var(--font-main);
     font-size:1.2rem;   
  }
 
-.success-form h5 {
+.msg h5 {
     color: var(--tipse-cream);
     opacity: 0.7;
     font-family: var(--font-main);
-    /*font-size: 0.9rem;*/
     margin-top: 40px;
+}
+
+.msg a {
+    color: var(--tipse-cream);
+    text-decoration: underline;
+}
+
+.help-icon {
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
 }
