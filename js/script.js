@@ -14,14 +14,6 @@ elementForm.addEventListener('submit', function (event) {
     const experienceForm = document.getElementById('experience').value;
     const majorForm = document.getElementById('major').value;
 
-    // test prints
-    console.log('First Name: ' + formFirst);
-    console.log('Last Name: ' + formLast);
-    console.log('CIN: ' + cinForm);
-    console.log('Email: ' + emailForm);
-    console.log('Experience Level: ' + experienceForm);
-    console.log('Major: ' + majorForm);
-
     // Generate session ID for use in rate limiter (security measure)
     const currentSessionId = crypto.randomUUID();
 
@@ -50,6 +42,7 @@ elementForm.addEventListener('submit', function (event) {
             }
             else {
                 console.log("Successfully sent to Supbase!");
+                window.location.href = "success.html";
             }
             
         })
