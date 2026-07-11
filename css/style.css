@@ -1,0 +1,33 @@
+/* Google Fonts Import for Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Global CSS Variables */
+:root {
+    --tipse-green: #7BC043;
+    --tipse-cream: #F2E8D5;
+    --tipse-dark: #1B1F23;
+    --font-main: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--tipse-dark);
+    color: var(--tipse-cream);
+    font-family: var(--font-main);
+}
+
+button {
+    background-color: var(--tipse-green);
+    color: var(--tipse-dark);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
