@@ -88,5 +88,12 @@ form {
     max-width: 100px;
     margin: 0 auto;
     display: block;
-    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+    color: var(--tipse-cream);
+    font-family: var(--font-main);
 }
