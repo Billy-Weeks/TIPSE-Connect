@@ -15,7 +15,7 @@ elementForm.addEventListener('submit', function (event) {
     const majorForm = document.getElementById('major').value;
 
     // Assign variables for api_key/url
-    const supabaseURL = "https://jyzcfhadrqpdhjlunjav.supabase.co/rest/v1/members";
+    const supabaseURL = "https://jyzcfhadrqpdhjlunjav.supabase.co/rest/v1";
     const apiKey = "sb_publishable_JMMPbDQIpBhZWIZQXaclCQ_iTUbm_1W";
 
 
